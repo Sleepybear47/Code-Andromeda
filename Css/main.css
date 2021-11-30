@@ -1,0 +1,371 @@
+body {
+    background-color: #242424;
+    font-family: IRANYekan, sans-serif;
+}
+
+svg {
+    color: #ffff;
+}
+
+h1 {
+    color: #ffff;
+}
+
+.container__sectionOne {
+    margin: auto;
+    width: 88%;
+}
+
+.header__main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+.header__main--leftSide {
+    display: flex;
+    align-items: center;
+}
+
+.header__main--leftSide--userSection {
+    display: flex;
+    padding-left: 19px;
+    border-left: 1px solid #ffff;
+    align-items: center;
+}
+
+.header__main--leftSide--userSection svg {
+    padding-left: 6px;
+}
+
+.header__main--rightSide {
+    display: flex;
+    align-items: center;
+}
+
+.header__main--rightSide--searchBox {
+    display: flex;
+    align-items: center;
+    padding-right: 9px;
+    border-bottom: 1px solid #ffff;
+}
+
+.header__main--rightSide--searchBox h1 {
+    padding-right: 5px;
+}
+
+/*********START SECTION BUTTON*************/
+.container__sectionTwo {
+    margin: auto;
+    width: 58%;
+    padding-bottom: 3rem;
+}
+
+.header__button,
+.header__button--phoneSection,
+.header__button--aboutUsSection,
+.header__button--websiteSection,
+.header__button--DiscountSection,
+.header__button--homeSection {
+    display: flex;
+    align-items: center;
+}
+
+.header__button {
+    justify-content: space-around;
+    margin-top: 3rem;
+
+}
+
+.header__button h1 {
+    margin-right: 6px;
+}
+
+.header__button svg:hover {
+    color: #A8741A;
+}
+
+.header__button h1:hover {
+    color: #A8741A;
+}
+
+/********** START SECTION 3 (COVER IMAGE ONE )************/
+
+.main__body--coverImageOne {
+    background-image: url("./image/cover-image1.jpg");
+    background-size: contain;
+    height: 58vh;
+    background-repeat: no-repeat;
+}
+
+.main__body--coverImageOne--text p {
+    color: #ffff;
+}
+
+.main__body--coverImageOne--text {
+    text-align: center;
+    padding-top: 8rem;
+    font-size: 1.9rem;
+}
+
+.main__body--coverImageOne--textOne {
+    margin-left: 24rem;
+}
+
+.main__body--coverImageOne--textTwo {
+    margin-left: 4rem;
+    padding-top: 2rem;
+}
+
+.main__body--coverImageOne--textThere {
+    margin-right: 10rem;
+    padding-top: 2rem;
+}
+
+/******* TITLE SECTION *************/
+.container__sectionThere {
+    margin: auto;
+    width: 50%;
+    padding-top: 2rem;
+}
+
+.border__boxTitle--solidBlack {
+    border: 1px solid #ffff;
+    height: 3rem;
+}
+
+.box__title p {
+    color: #ffff;
+}
+
+.box__title p:hover {
+    color: #A8741A;
+}
+
+.box__title {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 13px;
+}
+
+/*********  SECTION WATCH  ***********/
+.main__body--sectionWatch {
+    margin-top: 2rem;
+}
+
+.main__body--sectionWatch--watchOne {
+    width: 30%;
+    background-color: #2E2E2E;
+    margin-left: 28px;
+}
+
+.container__sectionFour {
+    margin: auto;
+    width: 90%;
+    display: flex;
+}
+
+.main__body--sectionWatch--watchOne--image img {
+    width: 69%;
+    margin-left: 60px;
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    padding-bottom: 2rem;
+}
+
+.main__body--sectionWatch--watchOne--text {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.main__body--sectionWatch--watchOne--text p {
+    color: #A8741A;
+    padding-bottom: 18px;
+}
+
+.main__body--sectionWatch--watchOne--text h3 {
+    color: #ffff;
+    padding-bottom: 20px;
+}
+
+.border__shareIcon,
+.border__likeSection,
+.border__addTocart {
+    border: 1px solid #707070;
+    width: max-content;
+    padding: 3px;
+    border-radius: 4px;
+}
+
+.main__body--sectionWatch--watchOne--iconSection {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    align-items: center;
+}
+
+.main__body--sectionWatch--watchOne--iconSection svg, p {
+    color: #545454;
+}
+
+.main__body--sectionWatch--watchOne--iconSection--shareIcon,
+.main__body--sectionWatch--watchOne--iconSection--likeSection,
+.main__body--sectionWatch--watchOne--iconSection--addTOcart {
+    padding: 7px;
+}
+
+.main__body--sectionWatch--watchOne--iconSection--addTOcart p {
+    padding: 5px;
+}
+
+.main__body--sectionWatch--watchTwo {
+    width: 30%;
+    background-color: #2E2E2E;
+    margin-left: 6rem;
+
+}
+
+.main__body--sectionWatch--watchTwo--image img {
+    width: 69%;
+    margin-left: 60px;
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    padding-bottom: 2rem;
+}
+
+/************ SECTION BANNER TWO ************/
+.main__body--bannerTwo {
+    background-image: url("./image/banner--2.png");
+    background-size: contain;
+    height: 68vh;
+    background-repeat: no-repeat;
+    margin-top: 3rem;
+}
+
+.bannerTwo__mainText h3 {
+    color: #ffff;
+    font-size: 2rem;
+}
+
+.bannerTwo__mainText--textOne {
+    display: flex;
+    justify-content: center;
+    padding-top: 11rem;
+    padding-right: 3rem;
+}
+
+.bannerTwo__mainText--textTwo {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-right: 34rem;
+}
+
+/***********  FOOTER  ******************/
+.footer {
+    padding-top: 2rem;
+}
+
+.container__footer {
+    margin: auto;
+    width: 95%;
+}
+
+.footer__box--grayColor {
+    color: #393838;
+}
+
+.container__footer--two {
+    margin: auto;
+    width: 100%;
+    color: red;
+    display: flex;
+}
+
+.footer__box--grayColor--StayWithUsSection--svgBox svg {
+    padding: 7px;
+}
+
+.footer__box--grayColor--StayWithUsSection--text h3 {
+    padding-bottom: 1rem;
+    font-size: 24px
+
+}
+
+.footer__box--grayColor--newOffer--Registration--box {
+    background-color: white;
+    width: max-content;
+    border-radius: 4px;
+
+}
+
+.footer__box--grayColor--newOffer {
+    margin-top: 6rem;
+    width: max-content;
+}
+
+.footer h3 {
+    color: #A8741A;
+    font-size: 17px;
+}
+
+.footer p {
+    color: #ffff;
+}
+
+.footer__box--grayColor--newOffer--Registration--box {
+    margin-top: 1rem;
+}
+
+.footer__box--grayColor--newOffer--Registration--box p {
+    padding: 1rem;
+    color: #A8741A;
+}
+
+.footer__box--grayColor--newOffer--Registration {
+    display: flex;
+}
+
+.footer__box--grayColor--newOffer--Email--box {
+    margin-top: 2rem;
+    margin-left: 3rem;
+    border-bottom: 1px solid white;
+}
+.footer__box--grayColor--ShoppingGuide-Section {
+    margin-left: 21rem;
+}
+
+.footer__box--grayColor--ShoppingGuide-Section--textTwo--ProductRegistration,
+.footer__box--grayColor--ShoppingGuide-Section--textTwo--SendProduct,
+.footer__box--grayColor--ShoppingGuide-Section--textTwo--paymentMethod{
+    padding-bottom: 3rem;
+    margin-left: 69px;
+}
+.footer__box--grayColor--ShoppingGuide-Section--textTwo{
+    margin-top: 2rem;
+}
+.footer__box--grayColor--ShoppingGuide-Section--textTwo--paymentMethod{
+    margin-left: 6.4rem;
+}
+
+.footer__box--grayColor--customerServices-Section {
+    margin-left: 17rem;
+}
+.footer__box--grayColor--customerServices-Section--textOne {
+    margin-left: 5rem;
+}
+.footer__box--grayColor--customerServices-Section p{
+    padding-bottom: 3rem;
+}
+.footer__box--grayColor--customerServices-Section--textTwo--CommonQuestions {
+    margin-top: 1.5rem;
+}
+.footer__box--grayColor--customerServices-Section--textTwo--TermsOfUse,
+.footer__box--grayColor--customerServices-Section--textTwo--Privacy,
+.footer__box--grayColor--customerServices-Section--textTwo--Report-a-Bug{
+    margin-left: 6.3rem;
+}
+.footer__box--grayColor--customerServices-Section--textTwo--Report-a-Bug{
+    margin-left: 7.6rem;
+}
+
