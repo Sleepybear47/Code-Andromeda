@@ -92,7 +92,7 @@ h1 {
 /********** START SECTION 3 (COVER IMAGE ONE )************/
 
 .main__body--coverImageOne {
-    background-image: url("./image/cover-image1.jpg");
+    background-image: url("./image/image01");
     background-size: contain;
     height: 58vh;
     background-repeat: no-repeat;
