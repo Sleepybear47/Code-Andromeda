@@ -1,0 +1,90 @@
+body {
+    background-color: #242424;
+    font-family: IRANYekan, sans-serif;
+}
+
+svg {
+    color: #ffff;
+}
+
+h1 {
+    color: #ffff;
+}
+
+.container__sectionOne {
+    margin: auto;
+    width: 88%;
+}
+
+.header__main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+.header__main--leftSide {
+    display: flex;
+    align-items: center;
+}
+
+.header__main--leftSide--userSection {
+    display: flex;
+    padding-left: 19px;
+    border-left: 1px solid #ffff;
+    align-items: center;
+}
+
+.header__main--leftSide--userSection svg {
+    padding-left: 6px;
+}
+
+.header__main--rightSide {
+    display: flex;
+    align-items: center;
+}
+
+.header__main--rightSide--searchBox {
+    display: flex;
+    align-items: center;
+    padding-right: 9px;
+    border-bottom: 1px solid #ffff;
+}
+
+.header__main--rightSide--searchBox h1 {
+    padding-right: 5px;
+}
+
+/*********START SECTION BUTTON*************/
+.container__sectionTwo {
+    margin: auto;
+    width: 58%;
+    padding-bottom: 3rem;
+}
+
+.header__button,
+.header__button--phoneSection,
+.header__button--aboutUsSection,
+.header__button--websiteSection,
+.header__button--DiscountSection,
+.header__button--homeSection {
+    display: flex;
+    align-items: center;
+}
+
+.header__button {
+    justify-content: space-around;
+    margin-top: 3rem;
+
+}
+
+.header__button h1 {
+    margin-right: 6px;
+}
+
+.header__button svg:hover {
+    color: #A8741A;
+}
+
+.header__button h1:hover {
+    color: #A8741A;
+}
