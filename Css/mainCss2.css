@@ -88,10 +88,12 @@ h1 {
 .header__button h1:hover {
     color: #A8741A;
 }
+
 /* end section header */
-.border__underHeader-grayColor{
+.border__underHeader-grayColor {
     border: solid 1px #2E2E2E;
 }
-.mainBody__SellerInformationSection__grayBox{
+
+.mainBody__SellerInformationSection__grayBox {
     background-color: #2E2E2E;
 }
