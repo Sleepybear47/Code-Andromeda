@@ -100,20 +100,25 @@ h1 {
 .main__box--leftSide--watchBox--yellowBox {
     border: #A8741A 1px solid;
     border-radius: 15px;
-    width: 20rem;
+    width: 14rem;
     overflow: hidden;
 }
 
 .leftSide__watchBox--watchImage--svgBox {
     display: flex;
     width: max-content;
-    margin-left: 1.5rem;
+    margin-left: 12px;
     margin-top: 1rem;
 }
 
 .leftSide__watchBox--watchImage--AddToCard--borderBoxGrayColor {
     border: #545454 solid 1px;
-    border-radius: 10px;
+    border-radius: 4px;
+    margin-left: 4.5rem;
+    margin-top: 1rem;
+}
+.leftSide__watchBox--watchImage--AddToCard--borderBoxGrayColor:hover{
+    border: #A8741A solid 1px;
 }
 
 .container__sectionThere {
@@ -143,22 +148,39 @@ h1 {
     margin-top: 1rem;
     margin-right: 1rem;
 }
-.leftSide__watchBox--watchImage--svgBox svg{
-    margin-left: 3rem;
+
+.leftSide__watchBox--watchImage--svgBox svg {
+    margin-left: 2rem;
     color: #A8741A;
 }
-.leftSide__watchBox--watchImage--svgBox--heartSvg svg:hover{
+
+.leftSide__watchBox--watchImage--svgBox--heartSvg svg:hover {
     color: red;
 }
-.leftSide__watchBox--watchImage--svgBox--shareSvg svg:hover{
+
+.leftSide__watchBox--watchImage--svgBox--shareSvg svg:hover {
     color: #5794E4;
 }
-.leftSide__watchBox--watchImage--svgBox--cartSvg svg:hover{
+
+.leftSide__watchBox--watchImage--svgBox--cartSvg svg:hover {
     color: #fff;
 }
-.leftSide__watchBox--watchImage--priceBox{
+
+.leftSide__watchBox--watchImage--priceBox {
     display: flex;
+    margin-left: 3rem;
+    font-size: 20px;
+    margin-top: 12px;
 }
-.leftSide__watchBox--watchImage--priceBox p{
+
+.leftSide__watchBox--watchImage--priceBox p {
     color: #ffffff;
+}
+
+.leftSide__watchBox--watchImage--AddToCard--borderBoxGrayColor p {
+    color: #A8741A;
+    padding: 6px 1rem;
+}
+.leftSide__watchBox--watchImage--AddToCard{
+    padding-bottom: 1rem;
 }
