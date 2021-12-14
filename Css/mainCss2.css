@@ -89,11 +89,35 @@ h1 {
     color: #A8741A;
 }
 
-/* end section header */
 .border__underHeader-grayColor {
-    border: solid 1px #2E2E2E;
+    border: solid 1px red;
 }
 
-.mainBody__SellerInformationSection__grayBox {
-    background-color: #2E2E2E;
+.main__box {
+    padding-top: 1rem;
+}
+
+.main__box--leftSide--watchBox--yellowBox {
+    border: #A8741A 1px solid;
+    border-radius: 15px;
+}
+
+.leftSide__watchBox--watchImage--svgBox {
+    display: flex;
+}
+
+.leftSide__watchBox--watchImage--AddToCard--borderBoxGrayColor {
+    border: #545454 solid 1px;
+    border-radius: 10px;
+}
+
+.container__sectionThere {
+    width: 87%;
+    margin: auto;
+}
+.leftSide__watchBox--watchImage img{
+    width: 20%;
+}
+.main__box--leftSide {
+    width: max-content;
 }
