@@ -1,64 +1,64 @@
 body {
-    background-color: #242424;
-    font-family: IRANYekan, sans-serif;
+  background-color: #242424;
+  font-family: IRANYekan, sans-serif;
 }
 
 svg {
-    color: #ffff;
+  color: #ffff;
 }
 
 h1 {
-    color: #ffff;
+  color: #ffff;
 }
 
 .container__sectionOne {
-    margin: auto;
-    width: 88%;
+  margin: auto;
+  width: 88%;
 }
 
 .header__main {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
 }
 
 .header__main--leftSide {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .header__main--leftSide--userSection {
-    display: flex;
-    padding-left: 19px;
-    border-left: 1px solid #ffff;
-    align-items: center;
+  display: flex;
+  padding-left: 19px;
+  border-left: 1px solid #ffff;
+  align-items: center;
 }
 
 .header__main--leftSide--userSection svg {
-    padding-left: 6px;
+  padding-left: 6px;
 }
 
 .header__main--rightSide {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .header__main--rightSide--searchBox {
-    display: flex;
-    align-items: center;
-    padding-right: 9px;
-    border-bottom: 1px solid #ffff;
+  display: flex;
+  align-items: center;
+  padding-right: 9px;
+  border-bottom: 1px solid #ffff;
 }
 
 .header__main--rightSide--searchBox h1 {
-    padding-right: 5px;
+  padding-right: 5px;
 }
 
 /*********START SECTION BUTTON*************/
 .container__sectionTwo {
-    margin: auto;
-    width: 58%;
-    padding-bottom: 3rem;
+  margin: auto;
+  width: 58%;
+  padding-bottom: 3rem;
 }
 
 .header__button,
@@ -67,120 +67,180 @@ h1 {
 .header__button--websiteSection,
 .header__button--DiscountSection,
 .header__button--homeSection {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .header__button {
-    justify-content: space-around;
-    margin-top: 3rem;
-
+  justify-content: space-around;
+  margin-top: 3rem;
 }
 
 .header__button h1 {
-    margin-right: 6px;
+  margin-right: 6px;
 }
 
 .header__button svg:hover {
-    color: #A8741A;
+  color: #a8741a;
 }
 
 .header__button h1:hover {
-    color: #A8741A;
+  color: #a8741a;
 }
 
 .border__underHeader-grayColor {
-    border: solid 1px #A8741A;
+  border: solid 1px #a8741a;
 }
-
+/********* SECTION WATCH BOX   *************/
 .main__box {
-    padding-top: 1rem;
+  padding-top: 1rem;
 }
 
 .main__box--leftSide--watchBox--yellowBox {
-    border: #A8741A 1px solid;
-    border-radius: 15px;
-    width: 14rem;
-    overflow: hidden;
+  border: #a8741a 1px solid;
+  border-radius: 15px;
+  width: 14rem;
+  overflow: hidden;
 }
 
 .leftSide__watchBox--watchImage--svgBox {
-    display: flex;
-    width: max-content;
-    margin-left: 12px;
-    margin-top: 1rem;
+  display: flex;
+  width: max-content;
+  margin-left: 12px;
+  margin-top: 1rem;
 }
 
 .leftSide__watchBox--watchImage--AddToCard--borderBoxGrayColor {
-    border: #545454 solid 1px;
-    border-radius: 4px;
-    margin-left: 4.5rem;
-    margin-top: 1rem;
+  border: #545454 solid 1px;
+  border-radius: 4px;
+  margin-left: 4.5rem;
+  margin-top: 1rem;
 }
-.leftSide__watchBox--watchImage--AddToCard--borderBoxGrayColor:hover{
-    border: #A8741A solid 1px;
+.leftSide__watchBox--watchImage--AddToCard--borderBoxGrayColor:hover {
+  border: #a8741a solid 1px;
 }
 
 .container__sectionThere {
-    width: 87%;
-    margin: auto;
+  width: 87%;
+  margin: auto;
+  display: flex;
 }
 
 .leftSide__watchBox--watchImage img {
-    width: 100%;
+  width: 100%;
 }
 
 .main__box--leftSide {
-    width: max-content;
+  width: max-content;
 }
 
 .leftSide__watchBox--watchImage--priceBox,
 .leftSide__watchBox--watchImage--AddToCard {
-    width: max-content;
+  width: max-content;
 }
 
 .main__box--leftSide--watchBox {
-    margin-top: 3rem;
+  margin-top: 3rem;
 }
 
 .leftSide__watchBox--watchImage {
-    margin-left: 1rem;
-    margin-top: 1rem;
-    margin-right: 1rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
 }
 
 .leftSide__watchBox--watchImage--svgBox svg {
-    margin-left: 2rem;
-    color: #A8741A;
+  margin-left: 2rem;
+  color: #a8741a;
 }
 
 .leftSide__watchBox--watchImage--svgBox--heartSvg svg:hover {
-    color: red;
+  color: red;
 }
 
 .leftSide__watchBox--watchImage--svgBox--shareSvg svg:hover {
-    color: #5794E4;
+  color: #5794e4;
 }
 
 .leftSide__watchBox--watchImage--svgBox--cartSvg svg:hover {
-    color: #fff;
+  color: #fff;
 }
 
 .leftSide__watchBox--watchImage--priceBox {
-    display: flex;
-    margin-left: 3rem;
-    font-size: 20px;
-    margin-top: 12px;
+  display: flex;
+  margin-left: 3rem;
+  font-size: 20px;
+  margin-top: 12px;
 }
 
 .leftSide__watchBox--watchImage--priceBox p {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .leftSide__watchBox--watchImage--AddToCard--borderBoxGrayColor p {
-    color: #A8741A;
-    padding: 6px 1rem;
+  color: #a8741a;
+  padding: 6px 1rem;
 }
-.leftSide__watchBox--watchImage--AddToCard{
-    padding-bottom: 1rem;
+.leftSide__watchBox--watchImage--AddToCard {
+  padding-bottom: 1rem;
+}
+.watchBox__main {
+  display: flex;
+}
+.watchBox__main--watchTwo,
+.watchBox__main--watchThere {
+  padding-left: 4rem;
+}
+/* *******     START SIDEBAR SECTION    *************/
+
+.sideBar {
+  margin-left: 43rem;
+  margin-top: 4rem;
+}
+.sideBar__grayBox {
+  border: #a50303 solid 1px;
+  border-radius: 10px;
+}
+
+.sideBar__yellowBox-one,
+.sideBar__yellowBox-two {
+  border: #a8741a solid 1px;
+  border-radius: 4px;
+}
+.sideBar p {
+  color: #fff;
+}
+
+.sideBar__yellowBox--titleBox {
+  display: flex;
+}
+
+.sideBar__yellowBox--text p {
+  color: #ffffff;
+}
+
+.text__one,
+.text__Two,
+.mainTitle__textOne,
+.mainTitle__textTwo {
+  display: flex;
+}
+.sideBar__yellowBox--text,
+.sideBar__textBox {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding-top: 0.8rem;
+}
+.sideBar__yellowBoxOne--textBox {
+  padding: 0.8rem;
+  padding-left: 3rem;
+}
+.text__Two {
+  margin-top: 11px;
+}
+
+.sideBar__graybox {
+  background-color: #2e2e2e;
+  height: 22rem;
 }
